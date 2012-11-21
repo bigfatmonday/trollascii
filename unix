@@ -1,0 +1,54 @@
+In August 1969, Ken Thompson, a programmer at AT&T subsidiary Bell Laboratories, saw the month-long departure of his wife and young son as an opportunity to put his ideas for a new operating system into practice. He wrote the first version of Unix in assembly language for a wimpy Digital Equipment Corp. (DEC) PDP-7 minicomputer, spending one week each on the operating system, a shell, an editor and an assembler.
+
+Thompson and a colleague, Dennis Ritchie, had been feeling adrift since Bell Labs had withdrawn earlier in the year from a troubled project to develop a time-sharing system called Multics (Multiplexed Information and Computing Service). They had no desire to stick with any of the batch operating systems that predominated at the time, nor did they want to reinvent Multics, which they saw as grotesque and unwieldy.
+
+After batting around some ideas for a new system, Thompson wrote the first version of Unix, which the pair would continue to develop over the next several years with the help of colleagues Doug McIlroy, Joe Ossanna and Rudd Canaday. Some of the principles of Multics were carried over into their new operating system, but the beauty of Unix then (if not now) lay in its less-is-more philosophy.
+
+"A powerful operating system for interactive use need not be expensive either in equipment or in human effort," Ritchie and Thompson would write five years later in the Communications of the ACM (CACM), the journal of the Association for Computing Machinery. "[We hope that] users of Unix will find that the most important characteristics of the system are its simplicity, elegance, and ease of use."
+
+Apparently they did. Unix would go on to become a cornerstone of IT, widely deployed to run servers and workstations in universities, government facilities and corporations. And its influence spread even farther than its actual deployments, as the ACM noted in 1983 when it gave Thompson and Ritchie its top prize, the A.M. Turing Award for contributions to IT: "The model of the Unix system has led a generation of software designers to new ways of thinking about programming."
+Early steps
+Ken Thompson and Dennis Ritchie
+Thompson and Ritchie in the early days of Unix.
+
+Of course, Unix' success didn't happen all at once. In 1971 it was ported to the PDP-11 minicomputer, a more powerful platform than the PDP-7 for which it was originally written. Text-formatting and text-editing programs were added, and it was rolled out to a few typists in the Bell Labs Patent department, its first users outside the development team.
+
+In 1972, Ritchie wrote the high-level C programming language (based on Thompson's earlier B language); subsequently, Thompson rewrote Unix in C, which greatly increased the OS' portability across computing environments. Along the way it picked up the name Unics (Uniplexed Information and Computing Service), a play on Multics; the spelling soon morphed into Unix.
+
+It was time to spread the word. Ritchie and Thompson's July 1974 CACM article, "The UNIX Time-Sharing System," took the IT world by storm. Until then, Unix had been confined to a handful of users at Bell Labs. But now with the Association for Computing Machinery behind it -- an editor called it "elegant" -- Unix was at a tipping point.
+
+"The CACM article had a dramatic impact," IT historian Peter Salus wrote in his book The Daemon, the Gnu and the Penguin. "Soon, Ken was awash in requests for Unix."
+Hackers' heaven
+
+Thompson and Ritchie were the consummate "hackers," when that word referred to someone who combined uncommon creativity, brute force intelligence and midnight oil to solve software problems that others barely knew existed.
+
+Their approach, and the code they wrote, greatly appealed to programmers at universities, and later at startup companies without the mega-budgets of an IBM, Hewlett-Packard or Microsoft. Unix was all that other hackers, such as Bill Joy at the University of California, Rick Rashid at Carnegie Mellon University and David Korn later at Bell Labs, could wish for.
+
+"Nearly from the start, the system was able to, and did, maintain itself," wrote Thompson and Ritchie in the CACM article. "Since all source programs were always available and easily modified online, we were willing to revise and rewrite the system and its software when new ideas were invented, discovered, or suggested by others."
+
+Korn, an AT&T Fellow today, worked as a programmer at Bell Labs in the 1970s. "One of the hallmarks of Unix was that tools could be written, and better tools could replace them," he recalls. "It wasn't some monolith where you had to buy into everything; you could actually develop better versions." He developed the influential Korn shell, essentially a programming language to direct Unix operations, now available as open-source software.
+
+Author and technology historian Salus recalls his work with the programming language APL on an IBM System/360 mainframe as a professor at the University of Toronto in the 1970s. It was not going well. But the day after Christmas in 1978, a friend at Columbia University gave him a demonstration of Unix runy operating system that has been certified by it to conform to the Single Unix Specification (SUS). This includes OSes that are usually not thought of as Unix, such as Mac OS X Leopard (which descended from BSD Unix and Mach) and IBM's z/OS (which descended from the mainframe operating system MVS), because they conform to the SUS and support SUS APIs. The basic idea is that it is Unix if it acts like Unix, regardless of the underlying code.
+
+A still broader definition of Unix would include Unix-like operating systems -- sometimes called Unix "clones" or "look-alikes" -- that copied many ideas from Unix but didn't directly incorporate code from Unix. The leading one of these is Linux.
+
+Finally, although it's reasonable to call Unix an "operating system," as a practical matter it is more. In addition to an OS kernel, Unix implementations typically include utilities such as comma Unix
+
+The continued lack of complete portability across competing versions of Unix, as well as the cost advantage of Linux and Windows on x86 commodity processors, will prompt IT organizations to migrate away from Unix, suggests a recent poll by Gartner Group.
+
+"The results reaffirm continued enthusiasm for Linux as a host server platform, with Windows similarly growing and Unix set for a long, but gradual, decline," says the poll report, published in February 2009.
+
+"Unix has had a long and lively past, and while it's not going away, it will increasingly be under pressure," says Gartner analyst George Weiss. "Linux is the strategic 'Unix' of choice." Although Linux doesn't have the long legacy of development, tuning and stress-testing that Unix has seen, it is approaching and will soon equal Unix in performance, reliability and scalability, he says.
+
+But a recent survey by Computerworld suggests that any migration away from Unix won't happen quickly. In the survey of 130 Unix users among 211 IT managers, 90% said their companies were "very or extremely reliant" on Unix. Slightly more than half said, "Unix is an essential platform for us and will remain so indefinitely," and just 12% said, "We expect to migrate away from Unix in the future." Cost savings, primarily via server consolidation, was cited as the number one reason for migrating away.
+
+Weiss says the migration to commodity x86 processors will accelerate because of the hardware cost advantages. "Horizontal, scalable architectures; clustering; cloud computing; virtualization on x86 -- when you combine all those trends, the operating system of choice is around Linux and Windows," he says.
+
+"For example," Weiss says, "in the recent Cisco announcement for its Unified Computing architecture, you have this networking, storage, compute and memory linkage in a fabric, and you don't need Unix. You can run Linux or Windows on x86. So, Intel is winning the war on behalf of Linux over Unix."
+
+The Open Group, owner of the Single Unix Specification and certifier of Unix systems, concedes little to Linux and calls Unix the system of choice for "the high end of features, scalability and performance for mission-critical applications." Linux, it says, tends to be the standard for smaller, less critical applications.
+
+AT&T's Korn is among those still bullish on Unix. Korn says a strength of Unix over the years, starting in 1973 with the addition of pipes, is that it can easily be broken into pieces and distributed. That will carry Unix forward, he says: "The [pipelining] philosophy works well in cloud computing, where you build small reusable pieces instead of one big monolithic application."
+The Unix legacy
+
+Regardless of the ultimate fate of Unix, the operating system born at Bell Labs 40 years ago has established a legacy likely to endure for decades more. It can claim parentage of a long list of popular software, including the Unix offerings of IBM, HP and Sun, Apple's Mac OS X and Linux. It has also influenced systems with few direct roots in Unix, such as Microsoft's Windows NT and the IBM and Microsoft versions of DOS. 
